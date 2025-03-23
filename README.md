@@ -1,4 +1,3 @@
-```markdown
 # Dynamic Room Pricing Prediction
 
 This repository contains code for predicting dynamic room pricing using machine learning models. The models implemented include:
@@ -9,13 +8,11 @@ This repository contains code for predicting dynamic room pricing using machine 
 
 ## Dataset
 
-The dataset used for this project was custom-prepared. It contains features related to room characteristics, demand, time-based factors, and other relevant variables that influence room pricing.
-
-**Note:** Due to privacy or specific project requirements, the dataset itself is not included in this repository.
+The dataset used for this project was custom-prepared.
 
 ## Implementation
 
-The implementation focuses on the machine learning pipeline, covering the following stages:
+The implementation focuses on the machine learning , covering the following stages:
 
 1.  **Data Preprocessing:**
     * Data cleaning and handling missing values using `SimpleImputer`.
@@ -39,7 +36,6 @@ The implementation focuses on the machine learning pipeline, covering the follow
 ## Files
 
 * `dynamic_room_pricing.ipynb`: Jupyter Notebook containing the complete machine learning pipeline.
-* `requirements.txt`: List of Python dependencies.
 
 ## Dependencies
 
@@ -57,12 +53,6 @@ xgboost
 You can install these dependencies using pip:
 
 ```bash
-pip install -r requirements.txt
-```
-
-or by manually installing them:
-
-```bash
 pip install numpy pandas matplotlib seaborn scikit-learn xgboost
 ```
 
@@ -71,17 +61,17 @@ pip install numpy pandas matplotlib seaborn scikit-learn xgboost
 1.  Clone the repository:
 
     ```bash
-    git clone [repository URL]
-    cd dynamic_room_pricing
+    git clone https://github.com/ac265640/Dynamic_room_pricing
+    cd Dynamic_room_pricing
     ```
 
 2.  Install the dependencies:
 
     ```bash
-    pip install -r requirements.txt
+    pip install numpy pandas matplotlib seaborn scikit-learn xgboost
     ```
 
-3.  Open and run the Jupyter Notebook `dynamic_room_pricing.ipynb`.
+3.  Open and run the Jupyter Notebook `dynamic-room-pricing.ipynb`.
 
 ## Future Work
 
